@@ -7,10 +7,10 @@ for k in range(n):
     score=0
     sum=0
     for i in quizResult:
-        if i=='o':
+        if i=='O':
          score= score+1
          sum = sum + score
-        if i=='x':
+        if i=='X':
          score =0
     print(sum)
     quizResult.clear()
