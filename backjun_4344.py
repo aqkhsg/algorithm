@@ -15,5 +15,5 @@ for k in range(n):
         if i > mean:
             overCnt +=1
 
-    print('%f'%(overCnt/cnt * 100) + '%' )
+    print('%.3f'%(overCnt/cnt * 100) + '%' )
 
